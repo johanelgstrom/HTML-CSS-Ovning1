@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: 15% 30% 30% 15%;
+  justify-content: space-evenly;
+}
+.container > div {
+  border: 2px solid red;
+  height: 95vh;
+  padding: 5px;
+}
