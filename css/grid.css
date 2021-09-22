@@ -1,21 +1,20 @@
 html,
 body,
-.container {
-  height: 100%;
+.wrapper {
+  height: 95vh;
 }
-.container {
+.wrapper {
   display: grid;
   grid-template-rows: 15% 30% 30% 15%;
   justify-content: space-evenly;
-  row-gap: 5px;
+  row-gap: 20px;
 }
-.container > div {
+.wrapper > div {
   border: 2px solid red;
   padding: 5px;
 }
-
 @media screen and (min-width: 768px) {
-  .container {
+  .wrapper {
     grid-template-columns: 15% 30% 30% 15%;
     grid-template-rows: none;
   }
